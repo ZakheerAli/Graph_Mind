@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+  color: #172033;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  font-size: clamp(2.5rem, 8vw, 4rem);
+}
+
+p {
+  max-width: 38rem;
+  color: #475569;
+  line-height: 1.6;
+}
